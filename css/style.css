@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #666666;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  color: #666666;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1;
+}
+
+dl {
+  width: 600px;
+  margin: 50px auto;
+}
+
+dt {
+  font-size: 18px;
+  height: 50px;
+  line-height: 50px;
+  text-indent: 30px;
+  color: #fff;
+  background: black;
+  cursor: pointer;
+}
+
+body > dl > dt:first-child {
+  background: rgb(50, 192, 145);
+}
+
+body > dl > dt:nth-child(3) {
+  background: rgb(126, 126, 126);
+}
+
+dd {
+  padding: 30px;
+  background: #f8f5ef;
+}
+
+dd ul li {
+  padding-bottom: 10px;
+}
